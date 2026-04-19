@@ -120,6 +120,7 @@ Your Appwrite project currently only allows `localhost`. You need to add your Ve
 2. Open your project → **Settings** → **Platforms**
 3. Click **Add Platform** → **Web App**
 4. Enter your Vercel URL (e.g. `blogsy.vercel.app`) — no `https://`, just the domain
+url : https://blogsy-iota.vercel.app/
 5. Click **Next** and save
 
 Without this step, Appwrite will block all requests from your live site.
