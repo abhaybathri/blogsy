@@ -24,7 +24,7 @@ function RTE({ name, control, label, defaultValue = "" }) {
                                 "preview", "anchor", "searchreplace", "visualblocks", "code",
                                 "fullscreen", "insertdatetime", "media", "table", "help", "wordcount","autolink", "lists"
                             ],
-                            toolbar: "undo redo | blocks | image | bold italic forecolor | alignleft aligncenter bold italic forecolor | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent |removeformat | help",
+                            toolbar: "undo redo | blocks | image | bold italic forecolor | alignleft aligncenter | alignright alignjustify | bullist numlist outdent indent |removeformat | help",
                             content_style: "body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; line-height: 1.75; }"
                         }}
                         onEditorChange={onChange}
